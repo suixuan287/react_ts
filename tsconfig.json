@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "lib": ["es6", "dom"],
+        "rootDir": "src",
+        "module": "CommonJS",
+        "target": "es5",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules", "build"]
+}
